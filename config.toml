@@ -1,0 +1,42 @@
+baseURL = "/"
+title = "Hunter Henrichsen"
+
+languageCode = "en-us"
+theme = "tale"
+paginate = 5
+
+pygmentsUseClasses=true
+
+[taxonomies]
+  author = "authors"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Ramblings about Java, Kotlin, and JavaScript"
+  keywords = "homepage, blog, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "content/posts"
+
+[Author]
+    name = "Hunter Henrichsen"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    title = "Contact"
+    url = "/contact/"
+    weight = 0

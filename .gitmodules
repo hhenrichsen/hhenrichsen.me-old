@@ -1,0 +1,9 @@
+[submodule "themes/meghna"]
+	path = themes/meghna
+	url = https://github.com/themefisher/meghna-hugo.git
+[submodule "themes/tale"]
+	path = themes/tale
+	url = https://github.com/EmielH/tale-hugo.git
+[submodule "content/posts"]
+	path = content/posts
+	url = git@git-hunter:hhenrichsen/blog-posts.git
