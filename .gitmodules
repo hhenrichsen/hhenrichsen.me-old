@@ -3,4 +3,4 @@
 	url = https://github.com/EmielH/tale-hugo.git
 [submodule "content/posts"]
 	path = content/posts
-	url = git@github.com:hhenrichsen/blog-posts.git
+	url = https://github.com/hhenrichsen/blog-posts.git
