@@ -1,0 +1,19 @@
+{{ if len .Params | eq 2 }}
+<center>
+<div>
+    {{ if gt (int (.Get 1)) 1 }}
+    <a href="/posts/{{ .Get 0}}-{{ sub (int (.Get 1)) 1 }}">Previous</a> |
+    <a href="/posts/{{ .Get 0}}-1">First</a>
+    {{ else }}
+    <strong>Previous</strong> | <strong>First</strong>
+    {{ end }}
+    | <a href="/posts/{{ .Get 0}}-{{ add (int (.Get 1)) 1 }}">Next</a>
+</div>
+
+<div>
+    Join us on <a href="https://discord.gg/jMQ8gsF">Discord</a>
+</div>
+</center>
+{{ else }}
+{{ errorf "Not enough params. Proper format is `serial [series] [number`." .Position }}
+{{ end }}
