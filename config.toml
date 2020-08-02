@@ -23,6 +23,7 @@ pygmentsUseClasses=true
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "content/posts"
+  css = ["custom.css"]
 
 [Author]
     name = "Hunter Henrichsen"
@@ -40,3 +41,8 @@ pygmentsUseClasses=true
     title = "Contact"
     url = "/contact/"
     weight = 0
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "native"
